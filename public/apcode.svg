@@ -1,0 +1,51 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%">
+  <defs>
+    <!-- Gradiente principal -->
+    <linearGradient id="purpleRedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Gradiente para líneas -->
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A855F7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Agrupamos y escalamos todo el contenido -->
+  <g transform="translate(680 512) scale(1.5) translate(-512 -512)">
+    <!-- Conexiones del grafo -->
+    <line x1="512" y1="512" x2="242" y2="472" stroke="url(#lineGradient)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="352" y2="342" stroke="url(#lineGradient)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="342" y2="672" stroke="url(#lineGradient)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="512" y1="512" x2="442" y2="622" stroke="url(#lineGradient)" stroke-width="8" stroke-linecap="round"/>
+
+    <line x1="382" y1="412" x2="352" y2="342" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="382" y1="412" x2="442" y2="442" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="412" y1="552" x2="512" y2="512" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="412" y1="552" x2="442" y2="622" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round"/>
+
+    <line x1="242" y1="472" x2="352" y2="342" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="352" y1="342" x2="442" y2="442" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="442" y1="622" x2="342" y2="672" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="342" y1="672" x2="302" y2="572" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="302" y1="572" x2="242" y2="472" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+
+    <line x1="442" y1="442" x2="512" y2="512" stroke="url(#lineGradient)" stroke-width="8" stroke-linecap="round"/>
+    <line x1="302" y1="572" x2="442" y2="622" stroke="url(#lineGradient)" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Nodos -->
+    <circle cx="512" cy="512" r="35" fill="url(#purpleRedGradient)"/>
+    <circle cx="242" cy="472" r="28" fill="url(#purpleRedGradient)"/>
+    <circle cx="352" cy="342" r="28" fill="url(#purpleRedGradient)"/>
+    <circle cx="442" cy="442" r="25" fill="url(#purpleRedGradient)"/>
+    <circle cx="302" cy="572" r="25" fill="url(#purpleRedGradient)"/>
+    <circle cx="342" cy="672" r="28" fill="url(#purpleRedGradient)"/>
+    <circle cx="442" cy="622" r="25" fill="url(#purpleRedGradient)"/>
+    <circle cx="382" cy="412" r="20" fill="url(#purpleRedGradient)"/>
+    <circle cx="412" cy="552" r="20" fill="url(#purpleRedGradient)"/>
+  </g>
+</svg>
